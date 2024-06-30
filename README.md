@@ -29,10 +29,10 @@ $ pip install -r requirements.txt
 ```
 
 # source
-fashionRecommendation.py                -- main class
-fashionRecommendationDemo.py            -- steamlit 실행 파일
-fashionRecommendationJupyterLab.ipynb   -- jupyterlab 파일
-fashion_list.csv                        -- 데이터 파일
+* fashionRecommendation.py                -- main class
+* fashionRecommendationDemo.py            -- steamlit 실행 파일
+* fashionRecommendationJupyterLab.ipynb   -- jupyterlab 파일
+* fashion_list.csv                        -- 데이터 파일
 ## 코드 설명
 * fashion_list.csv 를 읽어 pandas DataFrame 으로 만든다.
     * DataFrame 출력
