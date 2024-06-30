@@ -28,6 +28,29 @@ $ source ./bin/activate
 $ pip install -r requirements.txt
 ```
 
+# source
+fashionRecommendation.py                -- main class
+fashionRecommendationDemo.py            -- steamlit 실행 파일
+fashionRecommendationJupyterLab.ipynb   -- jupyterlab 파일
+fashion_list.csv                        -- 데이터 파일
+## 코드 설명
+* fashion_list.csv 를 읽어 pandas DataFrame 으로 만든다.
+    * DataFrame 출력
+* 각 카테고리의 최저값 추출
+    * min() 함수를 사용하여 각 카테고리의 최저값 추출
+    * 해당 가격의 브랜드들을 DataFrame 에서 추출
+    * 전체 가격 출력
+* 입력된 브랜드의 정보 추출 
+    * 입력된 브랜드가 존재하는지 확인
+    * 전체 가격 출력
+* 입력된 카테고리의 Min / Max 정보 추출
+    * 입력된 카테고리가 존재하는지 확인
+    * 최저가 브랜드, 가격 추출
+    * 최고가 브랜드, 가격 추출
+* 입력된 정보에 따라 insert / update / delete 진행
+    * 입력된 정보 확인
+    * action 에 따라 insert / update / delete 진행
+
 #  Demo
 ## Jupyter Lab
 [Jupyter Lab Demo](src/fashionRecommendationJupyterLab.ipynb)
