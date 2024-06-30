@@ -29,6 +29,9 @@ $ pip install -r requirements.txt
 ```
 
 #  Demo
+## Jupyter Lab
+[Jupyter Lab Demo](src/fashionRecommendationJupyterLab.ipynb)
+## Streamlit
 * streamlit 실행
 ```bash
 $ cd src
